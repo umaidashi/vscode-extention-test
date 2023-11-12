@@ -9,13 +9,15 @@
   "categories": [
     "Other"
   ],
-  "activationEvents": [],
+  "activationEvents": [
+    "*"
+  ],
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "vscode-extention-test.helloWorld",
-        "title": "Hello World"
+        "command": "vscode-omikuji.omikuji",
+        "title": "おみくじを引く"
       }
     ]
   },
