@@ -14,10 +14,11 @@
   ],
   "main": "./out/extension.js",
   "contributes": {
-    "commands": [
+    "keybindings": [
       {
-        "command": "vscode-omikuji.omikuji",
-        "title": "おみくじを引く"
+        "command": "text.command",
+        "key": "tab",
+        "when": "inlineSuggestionHasIndentationLessThanTabSize && inlineSuggestionVisible"
       }
     ]
   },
