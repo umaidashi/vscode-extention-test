@@ -16,9 +16,9 @@
   "contributes": {
     "keybindings": [
       {
-        "command": "text.command",
+        "command": "test.command",
         "key": "tab",
-        "when": "inlineSuggestionHasIndentationLessThanTabSize && inlineSuggestionVisible"
+        "when": "inlineSuggestionHasIndentationLessThanTabSize && inlineSuggestionVisible && !editorHoverFocused && !editorTabMovesFocus && !suggestWidgetVisible"
       }
     ]
   },
